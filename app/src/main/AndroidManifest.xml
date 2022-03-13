@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.udb.dsm.desafio1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Desafio1">
+        <activity
+            android:name=".Sueldo"
+            android:exported="false"
+            android:label="@string/title_activity_Sueldo"
+            android:layout_gravity="center"
+           />
+        <activity
+            android:name=".Votaciones"
+            android:exported="false"
+            android:label="@string/title_activity_votaciones"
+            android:layout_gravity="center"/>
+        <activity
+            android:name=".Cuadratica"
+            android:exported="false"
+            android:label="@string/title_activity_cuadratica"
+            android:layout_gravity="center"/>
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:layout_gravity="center"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

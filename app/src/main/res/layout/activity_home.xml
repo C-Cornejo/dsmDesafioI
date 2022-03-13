@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home"
+    android:paddingTop="210dp"
+    android:paddingHorizontal="20dp">
+    <Button
+        android:id="@+id/btnCuadratica"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Formula cuadrática"
+
+        android:drawableLeft="@drawable/ic_baseline_calculate_32_grey"
+        />
+
+    <Button
+        android:id="@+id/btnVotaciones"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Votaciones"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_assessment_32"/>
+
+    <Button
+        android:id="@+id/btnSueldo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:text="Calculo de sueldo"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_32"/>
+</LinearLayout>

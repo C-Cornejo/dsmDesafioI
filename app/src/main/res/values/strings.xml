@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"> .: Desafio 1 :.</string>
+    <string name="title_activity_home">.: Inicio :.</string>
+    <string name="title_activity_cuadratica">.: Ecuación Cuadrática :.</string>
+    <string name="title_activity_votaciones">.: Conteo de votaciones :.</string>
+    <string name="title_activity_Sueldo">.: Calculo de sueldo :.</string>
+
+</resources>
