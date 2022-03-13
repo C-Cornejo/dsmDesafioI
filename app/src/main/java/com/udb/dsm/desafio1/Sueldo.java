@@ -137,7 +137,7 @@ public class Sueldo extends AppCompatActivity {
         lblDescuento2.setText(planilla[1].getDescuento());
         lblBono2.setText(planilla[1].getBono());
 
-        lblNombre3.setText(planilla[3].getNombre());
+        lblNombre3.setText(planilla[2].getNombre());
         lblSueldo3.setText(String.valueOf(planilla[2].getSueldo()));
         lblDescuento3.setText(planilla[2].getDescuento());
         lblBono3.setText(planilla[2].getBono());
